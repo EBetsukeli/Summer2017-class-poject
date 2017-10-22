@@ -1,0 +1,576 @@
+* {
+	
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html, body {
+
+
+	width: 100% ;
+	height: 100%;
+}
+
+
+li {
+	 letter-spacing: 1px;
+font-family: 'Raleway', sans-serif;
+
+
+}
+h1 {
+font-family: 'Assistant', sans-serif;
+font-weight: 700px;
+
+
+
+}
+
+ 
+p{
+font-family: 'Assistant', sans-serif;
+	line-height: 30px;
+	font-size: 18px;
+}
+
+#container {
+background-image: url(../png/background.png);		
+
+	min-height: 100%;
+}
+
+#navcontain {
+
+	width: 80%;
+	margin: 0 auto;
+}
+
+#logo {
+	padding: 10px 10px;
+	float: left; 
+	text-transform: uppercase;
+	color: #fff;
+	border: 2px solid #fff;
+	height: 20px;
+	margin: 10px 0;
+
+}
+
+#logo > p{
+	line-height: 22px;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+
+}
+
+
+
+
+
+header {
+  background: #1F1E26;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: column;
+   flex-direction:column;
+}
+
+nav ul li {
+  margin-left: 40px;
+  padding-top: 23px;
+  position: relative;
+}
+
+nav ul li a {
+	display: block;
+  color: #fff;
+  text-decoration: none;
+  
+  font-size: 14px;
+  padding: 20px;
+}
+
+nav ul li a:hover {
+  color: #7E8EA5;
+  padding: 20px;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #7E8EA5;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+
+
+
+article h1 {
+	text-align: center;
+}
+
+article p {
+	padding:  15px;
+}
+
+#main {
+		
+		
+	margin: 0px auto;
+	width: 80%;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+#main > article {
+	background-color: #0f131a;
+	padding: 20px;
+	margin: 5% 0;
+	color: #fff;
+}
+ 
+
+
+
+footer {
+	 background: #1F1E26;
+	position:relative;
+	height: 100px;
+	margin-top: -100px;
+	clear:both;
+
+}
+
+
+footer::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+footer  ul {
+
+	color: #fff;
+	list-style-type: none;
+	padding: 0px;
+	display: block;
+	float: right;
+}
+
+footer  li {
+	margin-left: 20px;
+	padding-top: 23px;
+	display: inline-block;
+	 position: relative; padding-bottom: 10px;
+}
+
+
+
+footer  a {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+footer a:hover {
+  color: #7E8EA5;
+
+}
+
+footer a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #7E8EA5;
+
+  position: absolute;
+
+  bottom: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+
+footer a:hover::before {
+  width: 100%;
+}
+
+#copyright {
+ 	padding-top: 23px;
+	float: left;
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+}
+
+footer img {
+	width: 30px;
+	height: auto;
+
+
+}
+
+
+#my-video {
+
+	width: 80%;
+	margin: 2% 10%;
+
+}
+
+
+article img {
+	float : left;
+	padding: 0 15px;
+
+}
+
+.infobox h1,p{
+	text-align: justify;
+	padding: 0 15px;
+
+}
+
+.infobox {
+	margin-bottom: 50px;
+	width: 80%;
+	display: inline-block;
+	
+}
+
+
+/*----gallery---*/
+
+#gallery {
+	background-color: #0f131a;
+	padding: 10px;
+	margin: 5% 0;
+	color: #000;
+
+	overflow: auto;
+}
+#gallery img {
+	width: 100%;
+	height: auto;
+
+	
+}
+
+
+ #schedule2017  {
+	 			width: 100%;
+				font-weight: bold;
+				font-family: Helvetica, Sans-Serif;
+				font-size: 16px;
+				border-spacing: 1px;
+				border: 1px solid #fff;
+				border-collapse: collapse;
+			}
+
+			 #schedule2017 th {
+			 	text-align: left;
+				border: 1px solid #fff;
+				color: #fff;
+				padding: 10px;
+
+			}
+
+			#schedule2017  td{
+				text-align: left;
+				border: 1px solid #fff;
+				padding: 5px;
+				
+
+				}
+
+			
+			 #schedule2017 td:first-child {
+				width: 25%;
+				
+			}
+
+			 #schedule2017 td:last-child {
+					width: 75%;
+			
+			}
+
+/*----gallery---*/
+
+
+
+/*---contact---*/
+
+
+#contact {
+	background-color: #0f131a;
+	padding: 10px;
+	margin: 5% 0;
+	color: #000;
+
+	overflow: auto;
+}
+
+
+
+#form-wrap {
+	width:  65%;
+
+border: 5px solid #0f131a;
+background-color:  #0f131a;
+margin: 100px auto;
+padding: 40px 0px;
+	}
+
+form {
+
+	width:  80%;
+	margin: 0 auto;
+
+}
+
+label {
+	font-family: 'Assistant', sans-serif;
+	display: block;
+	margin: 5px 0 5px 0px;
+	font-size: 18px sans-serif;
+	color: #fff;
+	font-weight: bold;
+}
+
+
+input {
+
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+textarea {
+	height: 200px;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+
+
+fieldset {
+
+	border: none;
+	padding: 0 0 20px 0;
+}
+
+.labelone {
+	margin-top: 10px;
+}
+
+
+.btn {
+	font-family: 'Assistant', sans-serif;
+	font-size: 16px;
+	border: 1px solid #fff;
+
+	width: 100%;
+	background-color: #fff
+	color: #000;
+	padding: 8px;
+	font-weight: bold;
+}
+
+
+.btn:hover {
+	background-color: #888;
+	cursor: pointer;
+	border: 1px solid #888;
+	color: #fff;
+
+
+
+}
+
+
+form h1 {
+	font-family: 'Assistant', sans-serif;
+	margin: 0 0 0 0;
+	font: 24px sans-serif;
+	color: #fff;
+	font-weight: bold;
+
+}
+
+
+
+
+
+/*---contact---*/
+
+
+
+@media screen and (max-width: 1199px) {
+	nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+nav ul li {
+  margin-left: 0;
+}
+
+nav ul li a {
+  padding: 10px;
+}
+
+#form-wrap {
+	width:  80%;
+	}
+
+article > img {
+		float: none;
+	display: block;
+margin: 0 auto;
+	
+
+}
+
+.infobox{
+	display: block;
+	float: none;
+	margin: 0 auto;
+
+}
+.infobox p {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	text-align:justify;
+
+
+}
+
+
+
+
+@media screen and  (max-width: 980px) {
+	
+	
+
+nav {
+	width: 100%;
+		flex-direction: column;
+		
+	}
+
+
+nav ul li {
+	margin-left: 0px;}
+
+
+nav ul li a:hover {
+  padding: 10px;
+}
+#form-wrap {
+	width:  100%;
+	}
+
+
+}
+
+@media screen and  (max-width: 660px) {
+#copyright {
+	width:  100%;
+	text-align: center;}
+
+#main {
+		
+	margin: 0px auto;
+	width: 410px;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+
+
+footer {height: 150px;}
+
+footer img {
+	width: 20px;
+}
+
+footer ul {
+	float:none;
+	margin: 0 120px;
+}
+
+footer  li {
+
+
+	margin-left: 10px;
+	padding-top: 10px;
+	display: inline-block;
+	 position: relative;
+	 padding-bottom: 5px;
+}
+#form-wrap {
+	width:  100%;
+	}
+}
+
+@media screen and (max-width: 400px) {
+footer img {
+	display: none;
+}
+#main {
+		
+	margin: 0px auto;
+	width: 320px;
+	overflow: auto;
+	padding-bottom: 100px;
+}
+#form-wrap {
+	width:  100%;
+	}
+
+	}
+
+
+
+@media only screen and (min-width: 760px) {
+
+	nav ul {
+		flex-direction: row!important;
+		display: flex!important;
+		justify-content: flex-end!important;
+	}
+
+
+
+	
+}
+
+
+
